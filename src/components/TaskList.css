@@ -1,0 +1,38 @@
+.task {
+  background: #fafafa;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+}
+
+.task h3 {
+  margin: 0;
+}
+
+.task.completed h3 {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task-buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn-delete {
+  background-color: #e74c3c;
+}
+
+.btn-delete:hover {
+  background-color: #c0392b;
+}
+
+.btn-toggle {
+  background-color: #3498db;
+}
+
+.btn-toggle:hover {
+  background-color: #2980b9;
+}
